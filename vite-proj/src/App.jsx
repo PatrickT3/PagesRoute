@@ -1,11 +1,12 @@
 import './App.css'
+import Menu from './components/menu'
 
 function App() {
 
-  return (
-    <>
-      <h1>patrick</h1>
-    </>
+  return ( 
+    <div className="App">
+      <Menu></Menu>
+    </div>
   )
 }
 
