@@ -1,7 +1,8 @@
+import "./style.css"
 function Login() {
 
     return ( 
-      <div>
+      <div className="hl">
         <h1>login</h1>
       </div>
     )
