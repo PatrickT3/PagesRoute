@@ -6,6 +6,7 @@ import './main.css'
 import Login from './pages/login.jsx'
 import Home from './pages/home.jsx'
 import { Auth } from './contexts/auth.jsx'
+import Cont from './pages/Cont.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -16,6 +17,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             <Route path='/' element={<Home/>}/>
             <Route path='/login' element={<Login/>}/>
             <Route path='*' element={<Home/>}/>
+            <Route path='/Cont' element={<Cont/>}/>
           </Routes>
         </Auth>
       </BrowserRouter>
