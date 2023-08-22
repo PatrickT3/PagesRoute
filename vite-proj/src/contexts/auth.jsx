@@ -4,7 +4,7 @@ import { createContext } from 'react';
 const Context = createContext();
 
 const Auth = ({ children }) => {
-  const vari = "Aqui o contexto";
+  const vari = "true";
   return (
     <Context.Provider value={vari}>
       {children}
